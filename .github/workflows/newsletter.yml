@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) 저장소의 코드 가져오기 (최신 버전 적용)
+      # 1) 저장소의 코드 가져오기 (Node 24 지원 패치 버전 지정)
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
-      # 2) 파이썬 환경 설정 (최신 버전 적용)
+      # 2) 파이썬 환경 설정 (Node 24 지원 패치 버전 지정)
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.4.0
         with:
           python-version: '3.11'
 
