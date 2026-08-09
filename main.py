@@ -1,4 +1,3 @@
-Python
 import os
 import sys
 import logging
@@ -91,4 +90,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-2. requirements.txt
